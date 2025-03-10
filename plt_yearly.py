@@ -4,7 +4,7 @@ import mplcursors
 import textwrap
 
 # Load the CSV file, skipping the first row and assuming no header
-csv_file = 'Partnerzy_yearly.csv'
+csv_file = 'partnerzy_yearly.csv'
 df = pd.read_csv(csv_file, header=None, skiprows=1)
 
 # Rename columns for clarity
